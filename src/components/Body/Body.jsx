@@ -2,6 +2,7 @@ import React from 'react'
 import VipBox from '../VipBox/VipBox'
 import Connect from '../Connect/Connect'
 import Stories from '../Stories/Stories'
+import Footer from '../Footer/Footer'
 
 const Body = () => {
   return (
@@ -9,6 +10,7 @@ const Body = () => {
         <VipBox/>
         <Connect/>
         <Stories/>
+        <Footer/>
     </div>
   )
 }
